@@ -1,0 +1,472 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+.Head-Cont {
+  height: 120px;
+  width: 100%;
+  position: relative;
+}
+.header {
+  width: 100%;
+  height: 120px;
+  background-color: #fff;
+}
+.But_X {
+  border: none;
+  background: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+.box_X {
+  width: 50px;
+  height: 50px;
+  float: left;
+  left: 51px;
+top: 48px; 
+position: absolute;
+}
+.dropdown-content {
+  width: 277px;
+  height: 360px;
+  margin-top: 15px;
+  margin-left: 9px;
+  background: #ffffff;
+  box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.1);
+  padding-left: 66px;
+  display: none;
+}
+.dropdown-content a {
+  color: black;
+  padding-top: 14px;
+  display: block;
+}
+.B0x_Link {
+  width: 86px;
+  padding-top: 37px;
+}
+.box_X:hover .dropdown-content {
+  display: block;
+}
+.header-login {
+  margin: 0 auto;
+  float: left;
+}
+.LogoBox {
+  margin: 0 auto;
+  padding-top: 43.5px;
+  width: 157px;
+  height: 30px;
+}
+a img {
+  margin: 0 auto;
+}
+
+.Big_White_Text h2 {
+  width: 503px;
+  height: 42px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.Big_White_Text {
+  margin-top: 68px;
+  margin-left: 108px;
+}
+.Big_White_Text h2 {
+  width: 424px;
+  height: 42px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.Mini_White_Text {
+  width: 503px;
+  height: 42px;
+  margin: 29px 0 0 108px;
+}
+.Mini_White_Text p {
+  width: 503px;
+  height: 42px;
+  font-family: "Kanit300";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.Read-More {
+  width: 198px;
+  height: 55px;
+  margin: 53px 0 0 107px;
+  border: white 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.Read-More h2 {
+  height: 18px;
+
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+.Cont_DataWhite {
+  height: 19px;
+  width: 487px;
+  display: flex;
+  justify-content: space-between;
+  margin: 110px 0 0 108px;
+}
+.Cont_DataWhite h2 {
+  color: white;
+}
+.DataWhite {
+  width: 117px;
+  height: 18px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.DataTextWhite {
+  width: 59px;
+  height: 18px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.Mein-Cont {
+  width: 1143px;
+  margin: 0 auto;
+}
+.Left_Info {
+  width: 557px;
+  height: 591px;
+}
+.Cont_Data {
+  height: 18px;
+  width: 556px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 26px;
+}
+.Right_Info {
+  width: 557px;
+  height: 591px;
+}
+.LoremCont {
+  width: 557px;
+  height: 72px;
+  margin-top: 34px;
+}
+.Lorem {
+  width: 557px;
+  height: 72px;
+  font-family: "Kanit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+
+  color: #1f1f1d;
+}
+.PCont {
+  width: 557px;
+  height: 54px;
+  margin-top: 15px;
+}
+h1 {
+  font-family: "Kanit", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1f1f1d;
+}
+.h1_F {
+  width: 86px;
+  height: 27px;
+}
+.h1_I {
+  width: 99px;
+  height: 27px;
+}
+.h1_N {
+  width: 47px;
+  height: 27px;
+}
+.h1_List {
+  width: 43px;
+  height: 24px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 31px;
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+h2 {
+  width: 363px;
+  height: 27px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 27px;
+
+  text-transform: uppercase;
+
+  color: #1f1f1d;
+}
+.Data {
+  width: 117px;
+  height: 18px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+
+.DataText {
+  width: 57px;
+  height: 18px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #000000;
+}
+.Cont {
+  width: 1141px;
+  height: 648px;
+  margin: 59px 0 0 0;
+}
+.mCont {
+  width: 1141px;
+  height: 593px;
+  margin-top: 31px;
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  width: 557px;
+  height: 54px;
+  font-family: "Kanit300", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1f1f1d;
+}
+.Cont2 {
+  width: 1143px;
+  height: 325px;
+
+  margin-top: 63px;
+}
+.Cont2m {
+  width: 1143px;
+  height: 240px;
+  display: flex;
+  justify-content: space-between;
+}
+.Button {
+  width: 238px;
+  height: 42px;
+  background: url(Images/Group\ 6\ Copy.png);
+  margin-left: 454px;
+  margin-top: 63px;
+  cursor: pointer;
+}
+.Cont_Data2 {
+  height: 18px;
+  width: 363px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 19px;
+}
+.All1 {
+  width: 1143px;
+  height: 360px;
+  margin: 71.33px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  
+}
+img[alt="Photo1"] {
+  width: 571.5px;
+  height: 360px;
+  
+}
+.BlackBox {
+  width: 571.5px;
+  height: 360px;
+  background-color: black;
+  
+}
+.Cont2m,
+.All1Mar {
+  margin-top: 31px;
+}
+.ISSUE {
+  width: 316px;
+  height: 51px;
+  margin: 126.67px 0 0 116px;
+}
+.ISSUE h2 {
+  width: 316px;
+  height: 51px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 51px;
+  color: #ffffff;
+}
+.Read-More2 {
+  width: 198px;
+  height: 42px;
+  margin: 18px 0 0 186px;
+  border: white 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.Read-More2 h2 {
+  height: 21px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+.All_C0nt {
+  width: 1143px;
+  height: 389px;
+  margin-top: 63.67px;
+}
+.All_C0ntm {
+  display: flex;
+  justify-content: space-between;
+}
+.Button2 {
+  width: 238px;
+  height: 42px;
+  background: url(Images/Group\ 6\ Copy.png);
+  margin-left: 454px;
+  margin-top: 34px;
+  cursor: pointer;
+}
+.Button2,
+.B3 {
+  margin-top: 30px;
+}
+.Foot-Cont {
+  width: 100%;
+}
+.End {
+  width: 100%;
+  height: 163px;
+  background-color: #000;
+  margin-top: 100px;
+}
+.BoxEnd {
+  padding-top: 55px;
+  width: 142px;
+  height: 27px;
+}
+.BoxEndMini {
+  padding-top: 38px;
+  margin: 0 auto;
+  width: 102px;
+  height: 18px;
+}
+p {
+  width: 557px;
+  height: 54px;
+  font-family: "Kanit300", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1f1f1d;
+}
+.Mini_White_Text p {
+  width: 503px;
+  height: 42px;
+  font-family: "Kanit300";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.Cont2m1 {
+  width: 365px;
+  height: 325px;
+}
+.Cont2m2 {
+  width: 365px;
+  height: 325px;
+}
+.Cont2m3 {
+  width: 365px;
+  height: 325px;
+}
+.DataText {
+  width: 64px;
+}
+.pmImg {
+  width: 100%;
+  height: 100%;
+}
+.Container {
+  margin: 0 auto;
+}
+.Slider-Cont {
+  width:1440px;
+ 
+  height: 570px;
+  margin: 0 auto;
+}
+.Left{
+  width: 720px;
+  height: 570px;
+float: left;
+}
+.Right{
+  width: 720px;
+  height: 570px;
+  background-color: black;
+float: left;
+}
